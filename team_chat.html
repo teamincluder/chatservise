@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+		<title>includer</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="sidebar">
+				<div class="channelBox">
+					<h2 class="channel">includer <br> channels</h2>
+					<ul class="channelListBox">
+						<li class="channelList"><a href="#">【雑談】</a></li>
+						<li class="channelList backbutton"><a href="#">戻る</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="contentsBox">
+				<header class="headerBox">
+					<h2 class="channelName">雑談</h2><br><p class="channelPurpose">雑談用</p>
+        </header>
+				<main class="contents" >
+				  <div class="messageBox">
+            <div class="messageInnerBox">
+	            <h2 class="userName">fumiya</h2>	 <time class="timeStamp">｜2016-09-08 02:39</time>
+	              <p class="messageText">眠い</p>
+	              <p class="messageText">激しく眠い</p>
+             </div>
+             <form class="deleteform" action="#" method="post" onSubmit= "return disp()">
+            		<input type="hidden" name="chat_id"	value="11">
+            		<input type="hidden" name="channel_name"	value="general">
+            		<input class="deletebutton" type="submit" value="削除" >
+            	</form>
+            </div>
+            <div class="messageBox">
+              <div class="messageInnerBox">
+	              <h2 class="userName">doberan</h2>	 <time class="timeStamp">｜2016-09-08 17:50</time>
+	               <p class="messageText">頑張ったw</p>
+               </div>
+               <form class="deleteform" action="#" method="post" onSubmit= "return disp()">
+              		<input type="hidden" name="chat_id"	value="16">
+              		<input type="hidden" name="channel_name"	value="general">
+              		<input class="deletebutton" type="submit" value="削除" >
+              	</form>
+              </div>
+				</main>
+				<form class="sendBox" action="#" method="post">
+				  <textarea class="messageTextBox" type="text" name="message" placeholder="メッセージ"></textarea>
+						<input type="hidden" name="channel_name" value=	general>
+						<input type="submit" value="送信">
+					</form>
+				</div>
+			</div>
+	</body>
+</html>
