@@ -1,0 +1,42 @@
+データベース
+
+-----------------------------------------------------------
+ユーザマスター     userMaster
+-----------------------------------------------------------
+
+  userId        doberankei@gmail.com
+  userName      doberan
+  userPass      password
+  userIcon      /profile/doberankei@gmail.com.png
+  lastlogin
+  lastlogout
+
+
+-----------------------------------------------------------
+プロジェクトマスター  projectMaster
+-----------------------------------------------------------
+
+  projectId     createNambar(1,2,3,etc...)
+  readerId      doberankei@gmail.com
+  projectName   includer
+
+-----------------------------------------------------------
+プロジェクト文      projectMessage
+-----------------------------------------------------------
+  messageId     createNambar(1,2,3,etc...)
+  projectName
+  userName      doberankei
+  date          2016/12/7
+  time          15:44:20
+  message       aaaaaaaaaaaaa
+
+-----------------------------------------------------------
+プロジェクトメンバー  projectMember
+-----------------------------------------------------------
+  uniqueid
+  projectid
+  memberid
+
+-----------------------------------------------------------
+
+-----------------------------------------------------------

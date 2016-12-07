@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" class="title-html">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
     <title>title</title>
   </head>
-  <body>
-      <form>
-          <a href="sign_up.html"><input type="button" name="signun" value="新規登録" /></a>
-          <a href="sign_in.html"><input type="button" name="signip" value="ログイン" /></a>
-      </form>
+  <body class="container title-body">
+		<main class="row title-main">
+			<div class="row col-sm-12 center">
+				<div class="logo-box col-sm-12 center"><img class="image-logo" src="./img/logo.svg" /></div>
+				<h1 class="tool-name col-sm-12 center">Bevel</h1>
+				<p class="concept-text col-sm-12 center">チーム開発を支援するすべてのツールがここに<br>チーム開発するならBevel</p>
+			</div>
+			<ul class="login-list-box row col-sm-12 center">
+				<a href="sign_up.html"><li class="login-list col-sm-6"><p>新規登録</p></li></a>
+				<a href="sign_in.html"><li class="login-list col-sm-6"><p>ログインする</p></li></a>
+			</ul>
+		</main>
   </body>
 </html>

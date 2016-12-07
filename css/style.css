@@ -1,139 +1,71 @@
 @charset 'utf8';
 
-/* 共通　------------------------------------- */
-
-html,body{
-	margin: 0;
-	padding: 0;
+/*　共通 	-----------------------------------------*/
+html, body {
+    margin: 					0;
+    padding: 					0;
+    width: 						100% !important;
+    height: 					100%;
 }
-
-
-/* ¥共通　------------------------------------- */
-
-.wrapper{
-	width: 100%;
-	height: 100%;
-	background: #ddd;
+ul{
+	list-style:					none;
 }
-
-/*サイドバー---------------------------------------------*/
-.sidebar{
-    width: 20%;
-    height: 100%;
-    background: #69697a;
-    display: inline-block;
-    position: fixed;
+.center{
+	text-align: 				center;
 }
-.sidebar .channel{
-		font-size:30px;
-		color:#fff;
-		padding:0px 0px 0px 10px;
+/*　\共通	-----------------------------------------*/
+/*　title	-----------------------------------------*/
+.title-html{
+	background-image: 	url("../img/top2.jpg");
+	background-repeat: 	no-repeat;
+	background-size: 		cover;
 }
-.sidebar .channelList{
-		line-height:25px;
-		padding:0px 0px 0px 20px;
-		font-size:16px;
+.title-body{
+	background: 				rgba(20,20,20,0.5);
 }
-
-/*メインボックス---------------------------------------------*/
-.contentsBox{
-    width: 80%;
-    height: 100%;
-    background: #eee;
-    display: inline-block;
-    float: right;
+.title-main {
+    width: 						100%;
+    margin: 					0 auto;
+		margin: 					20% 0 0 0;
 }
-.contentsBox .headerBox {
-    background: #fff;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    height: 65px;
+.image-logo {
+    width: 						50%;
 }
-
-
-.contentsBox .headerBox .channelName {
-		font-size:24px;
-		font-weight: bold;
-		padding:0px 0px 0px 20px;
-		display:inline-block;
+.tool-name {
+    color: 						#0d0;
+    font-size: 				48px;
+    font-family: 			unset;
 }
-.contentsBox .headerBox .channelPurpose {
-		font-size:16px;
-		padding:0px 0px 5px 20px;
-		font-style:oblique;
-		display:inline-block;
+.concept-text{
+	color: 							#fff;
 }
-.contentsBox .headerBox .optionMenu {
-		font-size:16px;
-		position: fixed;
-    right: 2%;
-    top: 2%;
-		display:inline-block;
-
+.login-list {
+    color: 						rgba(255,255,255,0.7);
 }
-.contentsBox .headerBox .optionMenu .options {
-		background: #CA3;
-    width: 100px;
-		text-align:center;
-		list-style:none;
+.login-list p {
+    margin: 10px;
+    background: rgba(40,40,40,0.6);
+    color: #fff;
+    padding: 10px;
 }
-#nav:hover > ul {
-	display: inline-block;
-	background: #AC3;
-  	width: 100px;
-	list-style:none;
-	text-align:left;
-}
-.contentsBox .headerBox .optionMenu  .optionList{
-		display:none;
-}
-.contentsBox .contents {
-    padding: 65px 0px 140px 0px;
-}
-.contentsBox .contents .messageBox{
-		padding:10px 10px 10px 10px;
-		position:relative;
-}
-.contentsBox .contents .messageBox:nth-child(2n){
-	background: #ccc;
-}
-.contentsBox .contents .messageBox .userName{
-		line-height:20px;
-		font-size:18px;
-		display: inline-block;
-}
-.contentsBox .contents .messageBox .messageText{
-		font-size:12px;
-		line-height:1.5em;
-}
-.contentsBox .contents .messageBox .messageInnerBox{
-		width:80%;
-		display: inline-block;
-}
-.messageTextBox{
-	width: 80%;
-	height:100px;
-}
-.contentsBox .sendBox{
-    width: 60%;
-		padding:10px 0px 10px 30px;
-    position: fixed;
-    bottom: 0;
-    background: #fff;
-}
-.deleteform{
-		display:inline-block;
-		position:absolute;
-		top:0;
-		right:0;
-
-}
-.deletebutton{
-		width :	50px;
-		height : 20px;
-		color:#fff;
-		background-color:#daa520;
-		border:none;
-}
+/*　/title -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
+/*　共通 -----------------------------------------*/
